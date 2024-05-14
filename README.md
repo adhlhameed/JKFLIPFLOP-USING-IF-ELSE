@@ -52,7 +52,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
  RegisterNumber:212223050002
 */
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.*/
-module JKFLIPFLOP(q, qb,j,k,clock,reset);
+module exp7(q, qb,j,k,clock,reset);
    input j,k,clock,reset;
    output reg q, qb;    
 always @ (posedge (clock))
